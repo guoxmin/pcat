@@ -1,6 +1,11 @@
 var meta = require('./package.json');
+
+fis.set('namespace', meta.name);
+
 fis.set('project', meta.name);
 fis.set('version', meta.version);
+
+
 
 // 设置输出路径
 var outputPath = "../../_output";
